@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Harsh\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Harsh\.Rider2019.1\system\resharper-host\Local\Transient\ReSharperHost\v191\SolutionCaches\_UnityDOTS.-911564586.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Harsh\Documents\Unity Projects\DOTS\UnityDOTS" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="DOTS" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Components" t="Include">
+              <e p="PlayerInput.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+            </e>
+            <e p="NO-DOTS" t="Include">
+              <e p="Player.cs" t="Include" />
+            </e>
+            <e p="Systems" t="Include">
+              <e p="PlayerInputSystem.cs" t="Include" />
+              <e p="PlayerMovementSystem.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UnityDOTS.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
