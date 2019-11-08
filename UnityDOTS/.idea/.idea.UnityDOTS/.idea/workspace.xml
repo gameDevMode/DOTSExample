@@ -1,138 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b4f75d-2b84-4f99-8136-dde0f522e219" name="Default Changelist" comment="" />
+    <list default="true" id="99b4f75d-2b84-4f99-8136-dde0f522e219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="26" selection-start-line="26" selection-end-line="32" selection-end-column="36" />
-              <folding>
-                <marker date="1572887375761" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572887375761" expanded="true" signature="115:961" ph="{...}" />
-                <marker date="1572887375761" expanded="true" signature="398:451" ph="{...}" />
-                <marker date="1572887375761" expanded="true" signature="517:959" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <marker date="1572903154508" expanded="true" signature="6:78" ph="..." />
-                <marker date="1572903154508" expanded="true" signature="120:157" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <marker date="1572903171433" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572903171433" expanded="true" signature="123:166" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <marker date="1572903523286" expanded="true" signature="6:59" ph="..." />
-                <marker date="1572903523286" expanded="true" signature="109:381" ph="{...}" />
-                <marker date="1572903523286" expanded="true" signature="169:379" ph="{...}" />
-                <marker date="1572903523286" expanded="true" signature="238:371" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <marker date="1572903523256" expanded="true" signature="6:144" ph="..." />
-                <marker date="1572903523256" expanded="true" signature="238:995" ph="{...}" />
-                <marker date="1572903523256" expanded="true" signature="298:993" ph="{...}" />
-                <marker date="1572903523256" expanded="true" signature="461:985" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Hybrid ECS/Components/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/World.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.properties@0.6.2-preview/Runtime/Unity.Properties/Reflection/Properties/ReflectedMemberProperty.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities.Editor/EntityInspector/EntitySelectionProxyEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics.Hybrid/Assets/PhysicsCategoryNames.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/Types/TypeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics.Hybrid/Assets/CustomPhysicsBodyTagNames.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/EntityComponentStoreDebug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/InitializeDOTS.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PhysicsBodyGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerBodyGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/TestExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/InitiateECS.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="528" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1TLkr9Axz6GfsCrbwy3qFLgLuip" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,57 +124,38 @@
       <option name="presentableId" value="Default" />
       <updated>1572886728637</updated>
       <workItem from="1572886743910" duration="9878000" />
+      <workItem from="1573036408207" duration="1647000" />
+      <workItem from="1573060171671" duration="2610000" />
+      <workItem from="1573066144125" duration="4690000" />
+      <workItem from="1573144378853" duration="9706000" />
+      <workItem from="1573203505624" duration="10783000" />
+      <workItem from="1573245473408" duration="621000" />
+      <workItem from="1573246966269" duration="104000" />
+      <workItem from="1573247114815" duration="2650000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9878000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -233,89 +165,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.properties@0.6.2-preview/Runtime/Unity.Properties/Reflection/Properties/ReflectedMemberProperty.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/InitializeDOTS.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <marker date="1572903171433" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572903171433" expanded="true" signature="123:166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" selection-start-line="26" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <marker date="1572887375761" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572887375761" expanded="true" signature="115:961" ph="{...}" />
-            <marker date="1572887375761" expanded="true" signature="398:451" ph="{...}" />
-            <marker date="1572887375761" expanded="true" signature="517:959" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <marker date="1572903154508" expanded="true" signature="6:78" ph="..." />
-            <marker date="1572903154508" expanded="true" signature="120:157" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <marker date="1572903523256" expanded="true" signature="6:144" ph="..." />
-            <marker date="1572903523256" expanded="true" signature="238:995" ph="{...}" />
-            <marker date="1572903523256" expanded="true" signature="298:993" ph="{...}" />
-            <marker date="1572903523256" expanded="true" signature="461:985" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1572903523286" expanded="true" signature="6:59" ph="..." />
-            <marker date="1572903523286" expanded="true" signature="109:381" ph="{...}" />
-            <marker date="1572903523286" expanded="true" signature="169:379" ph="{...}" />
-            <marker date="1572903523286" expanded="true" signature="238:371" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
