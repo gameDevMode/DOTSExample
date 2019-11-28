@@ -1,7 +1,6 @@
-﻿
-using Unity.Entities;
+﻿using Unity.Entities;
 
 public struct PurePlayerInput : IComponentData
 {
-    public float InputX, InputY;
+    public float inputX, inputY;
 }

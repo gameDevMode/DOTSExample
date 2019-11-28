@@ -27,7 +27,7 @@
                 <e p="PurePlayerInput.cs" t="Include" />
                 <e p="PurePlayerMovement.cs" t="Include" />
               </e>
-              <e p="PlayerManager.cs" t="Include" />
+              <e p="ECSManager.cs" t="Include" />
               <e p="Systems" t="Include">
                 <e p="PurePlayerInputSystem.cs" t="Include" />
                 <e p="PurePlayerMovementSystem.cs" t="Include" />

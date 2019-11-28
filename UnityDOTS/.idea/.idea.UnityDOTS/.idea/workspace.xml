@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b4f75d-2b84-4f99-8136-dde0f522e219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Assembly-CSharp.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDOTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Components/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerInputSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Systems/PlayerMovementSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scenes/Pure DOTS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scenes/Pure DOTS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PhysicsCategoryNames.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PhysicsCategoryNames.asset.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +24,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics/Collision/Colliders/CylinderCollider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Hybrid ECS/Systems/PlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Hybrid ECS/Components/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/World.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.properties@0.6.2-preview/Runtime/Unity.Properties/Reflection/Properties/ReflectedMemberProperty.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities.Editor/EntityInspector/EntitySelectionProxyEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics.Hybrid/Assets/PhysicsCategoryNames.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/Types/TypeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/14/45feb937/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics.Hybrid/Assets/CustomPhysicsBodyTagNames.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/EntityComponentStoreDebug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/ECSManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Models/Ball.fbx.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B711263B-E681-49A9-934E-586BE1EF07C3/71/4d0f94d2/RotationConstraint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0875559D-55E7-46F2-A8F3-0BB0947BF5D1/ae/7982dd8a/IJobForEach_CCCCCC`6.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics/Collision/Geometry/BoundingVolumeHierarchy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.1.1-preview/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.1.1-preview/Unity.Entities/ManagedComponentStore.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,10 +63,14 @@
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/TestExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/InitiateECS.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/NO-DOTS/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.2.4-preview/Unity.Physics/Collision/Geometry/BoundingVolumeHierarchy.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B711263B-E681-49A9-934E-586BE1EF07C3/71/4d0f94d2/RotationConstraint.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/RaycastBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Components/PurePlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/ECSManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTS/Scripts/Pure ECS/Systems/PurePlayerMovementSystem.cs" />
       </list>
     </option>
@@ -81,6 +83,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
@@ -132,6 +135,18 @@
       <workItem from="1573245473408" duration="621000" />
       <workItem from="1573246966269" duration="104000" />
       <workItem from="1573247114815" duration="2650000" />
+      <workItem from="1574448170645" duration="3279000" />
+      <workItem from="1574501748231" duration="4101000" />
+      <workItem from="1574533119488" duration="3344000" />
+      <workItem from="1574536871620" duration="803000" />
+      <workItem from="1574607735944" duration="7699000" />
+      <workItem from="1574617929623" duration="705000" />
+      <workItem from="1574620397394" duration="3300000" />
+      <workItem from="1574867154318" duration="13963000" />
+      <workItem from="1574884788383" duration="4424000" />
+      <workItem from="1574927529723" duration="7103000" />
+      <workItem from="1574964609670" duration="342000" />
+      <workItem from="1574968929714" duration="7541000" />
     </task>
     <servers />
   </component>

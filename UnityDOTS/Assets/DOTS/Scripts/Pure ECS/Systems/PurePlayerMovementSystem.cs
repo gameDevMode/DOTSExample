@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst;
+﻿using Unity.Burst;
+using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
@@ -8,80 +7,89 @@ using Unity.Physics;
 using Unity.Physics.Extensions;
 using Unity.Transforms;
 using UnityEngine;
-using UnityEngine.Experimental.Animations;
-using Material = UnityEngine.Material;
-using Math = System.Math;
 
-[UpdateAfter(typeof(PurePlayerInputSystem))]
 public class PurePlayerMovementSystem : JobComponentSystem
 {
-    [BurstCompile]
-    public struct PlayerMovementJob : IJobForEach<PurePlayerInput, PurePlayerMovement, PhysicsVelocity, PhysicsMass, Translation, Rotation>
+    
+    public struct PlayerMovementJob : IJobForEach<PurePlayerMovement, PurePlayerInput, PhysicsMass, PhysicsVelocity,
+        Translation>
     {
-        public float deltaTime;
+
         public bool jumpPressed;
-        public float moveSpeed, jumpForce, maxPlayerSpeed;
+        public float moveSpeed, jumpForce, maxSpeed, groundCheckDistance;
 
+        private float3 _target;
 
-        private bool isJumping, changeOfDirection;
-        private float prevInputX, prevInputY;
-        public void Execute(ref PurePlayerInput input, ref PurePlayerMovement movement, ref PhysicsVelocity vel, ref PhysicsMass mass,
-            ref Translation translation, ref Rotation rotation)
+        [ReadOnly]public CollisionWorld collisionWorld;
+        [BurstCompile]
+        private bool IsGrounded(Translation translation)
+        {
+            var filter = new CollisionFilter()
+            {
+                BelongsTo = (uint)(1 << 2),
+                CollidesWith = (uint)(1 << 1),
+                GroupIndex = 1
+            };
+            var from = translation.Value - new float3(0f, ECSManager.instance.playerCapsuleHeight / 2f, 0f);
+            var to = translation.Value - new float3(0f, ECSManager.instance.playerCapsuleHeight / 2f + groundCheckDistance, 0f);
+            var input = new RaycastInput()
+            {
+                End = to,
+                Filter = filter,
+                Start = from
+            };
+
+            var hit = collisionWorld.CastRay(input);
+            Debug.Log(hit ? "<size=22>IsGrounded: <color=green>True</color></size>" : "<size=22>IsGrounded: <color=red>False</color></size>");
+            return hit;
+        }
+        [BurstCompile]
+        public void Execute(ref PurePlayerMovement movement, ref PurePlayerInput input, ref PhysicsMass mass, ref PhysicsVelocity vel,
+            ref Translation translation)
         {
             movement.jumpForce = jumpForce;
             movement.moveSpeed = moveSpeed;
-            rotation.Value = new quaternion(0f, rotation.Value.value.y, 0f, rotation.Value.value.w);
-            if (jumpPressed && !isJumping)
+            mass.InverseInertia[0] = 0f;
+            mass.InverseInertia[2] = 0f;
+
+            _target.x = translation.Value.x + input.inputX;
+            _target.y = 0f;
+            _target.z = translation.Value.z + input.inputY;
+
+            var v = math.normalizesafe(_target - translation.Value).xz * moveSpeed;
+
+            var l = vel.Linear;
+            l.x = v.x;
+            l.z = v.y;
+
+            if (math.SQRT2 * vel.Linear.x * vel.Linear.z < maxSpeed)
+                vel.Linear = l;
+
+            if (jumpPressed && IsGrounded(translation))
             {
-                vel.Linear = float3.zero;
-                vel.Angular = float3.zero;
                 var impulse = new float3(0f, jumpForce, 0f);
-                vel.ApplyImpulse(mass, translation, rotation, impulse, translation.Value);
+                vel.ApplyLinearImpulse(mass, impulse);
             }
 
-            if (Math.Abs(vel.Linear.y) > 0.1f)
-                isJumping = true;
-            else
-                isJumping = false;
-
-            if (input.InputX != 0 || input.InputY != 0)
-            {
-                //Player Input Given
-                changeOfDirection = false;
-                if ((input.InputX > 0 && prevInputX < 0) || (input.InputX < 0 && prevInputX > 0))
-                    changeOfDirection = true;
-                if ((input.InputY > 0 && prevInputY < 0) || (input.InputY < 0 && prevInputY > 0))
-                    changeOfDirection = true;
-                if(changeOfDirection)
-                    vel.Linear = float3.zero;
-                
-                vel.Angular = float3.zero;
-                if(Vector3.SqrMagnitude(new Vector3(vel.Angular.x + vel.Linear.x, vel.Angular.y + vel.Linear.y, vel.Angular.z + vel.Linear.z )) < maxPlayerSpeed * maxPlayerSpeed)
-                    vel.Linear += new float3(input.InputX * deltaTime * moveSpeed, 0f, input.InputY * deltaTime * moveSpeed);
-
-                prevInputX = input.InputX;
-                prevInputY = input.InputY;
-            }
-            else
-            {
-                if(isJumping) return;
-                vel.Linear = math.lerp(vel.Linear, float3.zero, deltaTime * 20f);
-                vel.Angular = math.lerp(vel.Angular, float3.zero, deltaTime * 20f);
-            }
         }
     }
-
     protected override JobHandle OnUpdate(JobHandle inputDeps)
     {
-        var playerMovementJob = new PlayerMovementJob
+        if(ECSManager.instance == null)
+            throw new System.NotImplementedException();
+        
+        var playerMovementJob = new PlayerMovementJob()
         {
-            deltaTime = Time.deltaTime,
+            jumpForce = ECSManager.instance.playerJumpForce,
             jumpPressed = Input.GetButtonDown("Jump"),
-            moveSpeed = PlayerManager.Instance.moveSpeed,
-            jumpForce = PlayerManager.Instance.jumpForce,
-            maxPlayerSpeed = PlayerManager.Instance.maxPlayerSpeed
+            moveSpeed = ECSManager.instance.playerMoveSpeed,
+            maxSpeed = ECSManager.instance.playerMaxSpeed,
+            groundCheckDistance = ECSManager.instance.groundCheckDistance,
+            collisionWorld = World.Active.GetExistingSystem<Unity.Physics.Systems.BuildPhysicsWorld>().PhysicsWorld.CollisionWorld
         };
 
-        return playerMovementJob.Schedule(this, inputDeps);
+        var newDeps = JobHandle.CombineDependencies(
+            World.Active.GetExistingSystem<Unity.Physics.Systems.BuildPhysicsWorld>().FinalJobHandle, inputDeps);
+        return playerMovementJob.Schedule(this, newDeps);
     }
 }
